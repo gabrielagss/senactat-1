@@ -1,0 +1,104 @@
+Protocolo
+ É um  conjunto de regras de como as coisas devem acontecer na Internet
+Quando falamos dos protocolos de Internet, estamos nos referindo aos principais serviços que usamos
+Protocolo de rede, protocolo acesso remoto 
+https://www.hostmidia.com.br/blog/protocolos-de-internet/
+IP
+O Protocolo é conjunto de regras, para roteamento e endereçamento de pacotes de dados para que eles possam viajar pelas redes e chegar ao destino correto
+TCP-IP
+TCP/IP é um conjunto de protocolos que possibilita a comunicação entre computadores e servidores, formando a Internet.
+Ele combina o Protocolo de Controle de Transmissão (TCP), responsável pela transmissão de dados, com o Protocolo de Internet (IP), que identificar os computadores e servidores.
+
+Pacotes Novell
+é um tipo de sistema operacional de rede.
+Ele fornece amplos serviços de rede, desde arquivos fáceis e simples até usuários de rede, dados, segurança e até gerenciamento de recursos.
+Geralmente é projetado para redes ou sistema operacional de
+snmp
+Pacotes Apple
+
+
+ICMP
+É um protocolo para determinar a disponibilidade da rede 
+E gerenciar o trafego  
+Faz o diagnostico de problemas de conectividade da rede ou transferência de dados entre dispositivo 
+
+Ping da Morte
+É um ataque em que o invasor tenta interromper uma maquina  enviado um pacote maior 
+Que o tamanho máximo permitido, fazendo com que a maquina trave 
+
+Interface de Rede
+É um hardaware usado para que o computador se conecte á rede 
+Cada interface de rede tem um endereço único chamado mac
+
+LAN: lan é uma rede local que interligam computadores dentro de um mesmo espaço físico 
+
+WAN: wan  são  de longas distancias , é um grande rede que pode englobar um pai ou continente 
+
+MAN: é uma rede de área metropolitana é similar a uma rede local (lan), mas abrange um cidade ou campus inteiro 
+Ela é formada a partir de da conexão de varias Lans
+
+ RAN: é uma rede de u ma região geográfica especifica,  são menores que redes wan
+ 
+ CAN: rede que interliga computadores em diferentes edificações de um mesmo complexo institucional ex: universidade, condomínios 
+ 
+ PAN: é uma rede onde é utilizado tecnologia de redes sem fio para interligar vários dispositivos variados 
+Tem uma área bem reduzida
+
+ SAN:é uma rede que tem como objetivo a ligação entre vários computadores e dispositivos de armazenamento 
+Diferenças entre LAN e WAN em relação ao Hardware e Largura de Banda.
+Colisão (CSMA-CD)
+é um protocolo de sistema de gerenciamento de tráfego que garante o funcionamento das redes Ethernet.
+Isso simplifica a transmissão de dados e barateia os equipamentos, mas em compensação traz um grave problema: as colisões de pacotes que ocorrem
+sempre que duas (ou mais) estações tentam transmitir dados ao mesmo tempo.
+
+HUB: Hub, também conhecido como concentrador, é um equipamento utilizado na área da
+informática para realizar a conexão de computadores de uma rede e possibilitar a transmissão de informações entre essas máquinas.
+hub manda a mensagem para todos da rede 
+
+Switch
+Switch é mais “inteligente”. O switch é uma central que distribui os dados somente aos destinatários ao invés de espelhar para toda a rede.
+
+Router:
+Um roteador é um dispositivo de hardware que serve como ponto de conexão entre uma rede local e a internet. Os roteadores gerenciam,
+ou “direcionam”, o tráfego e os dados da Web entre dispositivos em redes diferentes e permitem que vários dispositivos compartilhem
+a mesma conexão com a internet.
+ o roteador tem a função de criar o melhor caminho para ligar os aparelhos (computadores, notebooks, celulares, tablets, tvs) à rede de Internet.
+
+O que acontece quando o Router não conhece e o caminho?
+
+O Que acontece quando um Pacote não chega até o destino?
+Perda de pacote é quando a informação é perdida no caminho entre sua fonte e seu destino. Às vezes, essa informação é reenviada após um tempo,
+mas também pode ser que seja descartada quando uma nova informação chega
+
+TCP: O TCP (Transmission Control Protocol) é responsável pela divisão da mensagem em datagramas, pelo seu reagrupamento e retransmissão dos datagramas perdidos
+
+UDP: pode-se enviar datagramas de uma máquina à outra, mas sem garantia de que os dados enviados chegarão intactos e na ordem correta.
+
+Proxy :
+Um proxy é um serviço que age como um intermediário entre o usuário e a internet, recebe e repassa todas as suas requisições ao site que você está acessando.
+Dessa forma, o IP registrado nessas páginas acessadas é o do proxy e não o seu. Assim, sua identidade não fica exposta na rede, dificultando que você seja rastreado.
+
+Além da proteção à identidade, um usuário pode adotar o proxy para. 
+
+Evitar restrições de navegação estatal ou institucional: governos, escolas e outras organizações podem usar firewalls para limitar o acesso dos usuários à internet.
+Nesse caso, o proxy ajudará a pessoa a contornar a restrição e acessar o que deseja
+
+Hospedar firewall: usado como um sistema de segurança, o firewall pode ser hospedado em proxy para aprovar ou bloquear o tráfego de entrada antes que ele chegue à rede.
+
+
+
+Quais as Funcões do PROXY: 
+Ele filtra informações, impedindo que malwares ou vírus infectem os dispositivos utilizados para navegação. 
+1
+Ao usar proxy com regras de filtragem de conteúdo, ela consegue bloquear o acesso dos alunos a sites como Facebook e Instagram, por exemplo.
+
+Firewall:
+
+Um firewall é um dispositivo de segurança da rede que monitora o tráfego de rede de entrada
+e saída e decide permitir ou bloquear tráfegos específicos de acordo com um conjunto definido de regras de segurança.
+
+Um firewall pode ser um hardware, software ou ambos.
+
+Portas 80, 110, 25, 21, 23
+DNS
+DHCP
