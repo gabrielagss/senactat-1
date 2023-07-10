@@ -1,0 +1,57 @@
+aula 13-03-2023
+
+pegar 1 switche
+
+conectar 4 computadores ( colocar indereço ipv4)
+no switches
+------------------------------------------------
+pegar mais um switche 
+
+pegar o cabo cross-over 
+
+e conectar no outro switche
+-------------------------------------------------
+pegar 2 computadores (colocar indereço ipv4)
+
+conectar no segundo 
+switche
+
+---------------------------------------------------------------------------------------------------------------------------------
+configurar p sw
+
+Switch> enable
+Switch#
+
+...
+
+Switch# conf t
+Switch(config)# hostname SWFeliz
+SWFeliz(config)#
+
+
+...
+
+Switch# conf t
+Switch(config)# vlan 2
+Switch(config-vlan)#name NOMEdaVLAN
+
+...
+
+Switch(config-vlan)#end   ou Router(config-vlan)# "CTRL+Z" ou Router(config-vlan)# exit
+
+...
+
+Switch# Show Vlan Brief
+
+...
+
+Switch(config)#interface f0/1
+Switch(config-if)#switchport access vlan2
+                                        ^
+...
+
+Switch# Show RUN
+
+Switch#WR
+
+...
